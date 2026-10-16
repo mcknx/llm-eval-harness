@@ -1,0 +1,222 @@
+{
+ "t01": {
+  "output": "{\"category\":\"billing\",\"priority\":\"normal\",\"order_id\":\"A1042\",\"reply\":\"Thanks for reaching out. I've pulled up order A1042. Our billing team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   420,
+   95
+  ]
+ },
+ "t02": {
+  "output": "{\"category\":\"shipping\",\"priority\":\"normal\",\"order_id\":\"A1107\",\"reply\":\"Thanks for reaching out. I've pulled up order A1107. Our shipping team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   427,
+   104
+  ]
+ },
+ "t03": {
+  "output": "{\"category\":\"technical\",\"priority\":\"normal\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our technical team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   434,
+   113
+  ]
+ },
+ "t04": {
+  "output": "{\"category\":\"account\",\"priority\":\"urgent\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our account team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   441,
+   122
+  ]
+ },
+ "t05": {
+  "output": "{\"category\":\"shipping\",\"priority\":\"low\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our shipping team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   448,
+   131
+  ]
+ },
+ "t06": {
+  "output": "{\"category\":\"technical\",\"priority\":\"urgent\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our technical team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   455,
+   95
+  ]
+ },
+ "t07": {
+  "output": "{\"category\":\"billing\",\"priority\":\"low\",\"order_id\":\"A1200\",\"reply\":\"Thanks for reaching out. I've pulled up order A1200. Our billing team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   462,
+   104
+  ]
+ },
+ "t08": {
+  "output": "{\"category\":\"shipping\",\"priority\":\"normal\",\"order_id\":\"A0988\",\"reply\":\"Thanks for reaching out. I've pulled up order A0988. Our shipping team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   469,
+   113
+  ]
+ },
+ "t09": {
+  "output": "{\"category\":\"account\",\"priority\":\"low\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our account team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   476,
+   122
+  ]
+ },
+ "t10": {
+  "output": "{\"category\":\"billing\",\"priority\":\"urgent\",\"order_id\":\"A1311\",\"reply\":\"Thanks for reaching out. I've pulled up order A1311. Our billing team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   483,
+   131
+  ]
+ },
+ "t11": {
+  "output": "{\"category\":\"other\",\"priority\":\"low\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our other team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   490,
+   95
+  ]
+ },
+ "t12": {
+  "output": "{\"category\":\"technical\",\"priority\":\"normal\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our technical team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   497,
+   104
+  ]
+ },
+ "t13": {
+  "output": "{\"category\":\"account\",\"priority\":\"normal\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our account team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   504,
+   113
+  ]
+ },
+ "t14": {
+  "output": "{\"category\":\"shipping\",\"priority\":\"urgent\",\"order_id\":\"A1402\",\"reply\":\"Thanks for reaching out. I've pulled up order A1402. Our shipping team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   511,
+   122
+  ]
+ },
+ "t15": {
+  "output": "{\"category\":\"other\",\"priority\":\"low\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our billing team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   518,
+   131
+  ]
+ },
+ "t16": {
+  "output": "{\"category\":\"account\",\"priority\":\"normal\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our account team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   525,
+   95
+  ]
+ },
+ "t17": {
+  "output": "{\"category\":\"technical\",\"priority\":\"urgent\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our technical team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   532,
+   104
+  ]
+ },
+ "t18": {
+  "output": "{\"category\":\"shipping\",\"priority\":\"normal\",\"order_id\":\"A1520\",\"reply\":\"Thanks for reaching out. I've pulled up order A1520. Our shipping team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   539,
+   113
+  ]
+ },
+ "t19": {
+  "output": "{\"category\":\"other\",\"priority\":\"low\",\"order_id\":null,\"reply\":\"Thanks for reaching out. Our other team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   546,
+   122
+  ]
+ },
+ "t20": {
+  "output": "{\"category\":\"billing\",\"priority\":\"normal\",\"order_id\":\"A1633\",\"reply\":\"Thanks for reaching out. I've pulled up order A1633. Our billing team is on it and will update you shortly.\"}",
+  "judge": {
+   "pass": true,
+   "reason": "Polite, addresses the request, makes no promises it cannot keep."
+  },
+  "usage": [
+   553,
+   131
+  ]
+ }
+}

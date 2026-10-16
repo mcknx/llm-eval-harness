@@ -1,0 +1,22 @@
+[
+  {"id": "t01", "ticket": "I was charged twice for order #A1042 this morning. Please refund the duplicate.", "expect": {"category": "billing", "priority": "normal", "order_id": "A1042"}},
+  {"id": "t02", "ticket": "Where is my package? Order A1107 said 3-5 days and it has been 9.", "expect": {"category": "shipping", "priority": "normal", "order_id": "A1107"}},
+  {"id": "t03", "ticket": "The app crashes every time I open the settings page on Android 15.", "expect": {"category": "technical", "priority": "normal", "order_id": null}},
+  {"id": "t04", "ticket": "Someone changed my account email and I can't log in. I think I was hacked!!", "expect": {"category": "account", "priority": "urgent", "order_id": null}},
+  {"id": "t05", "ticket": "Do you ship to New Zealand?", "expect": {"category": "shipping", "priority": "low", "order_id": null}},
+  {"id": "t06", "ticket": "Your checkout page is down, nobody on our team can pay. We have a launch in an hour.", "expect": {"category": "technical", "priority": "urgent", "order_id": null}},
+  {"id": "t07", "ticket": "Can I change the billing address on invoice for order A1200?", "expect": {"category": "billing", "priority": "low", "order_id": "A1200"}},
+  {"id": "t08", "ticket": "I received the wrong size for order #A0988. Need to swap it before Friday.", "expect": {"category": "shipping", "priority": "normal", "order_id": "A0988"}},
+  {"id": "t09", "ticket": "How do I turn on two-factor authentication?", "expect": {"category": "account", "priority": "low", "order_id": null}},
+  {"id": "t10", "ticket": "My card was charged $4,800 instead of $48 on order A1311. This is urgent, rent is due.", "expect": {"category": "billing", "priority": "urgent", "order_id": "A1311"}},
+  {"id": "t11", "ticket": "Love the product! Just wanted to say thanks.", "expect": {"category": "other", "priority": "low", "order_id": null}},
+  {"id": "t12", "ticket": "The export to CSV button gives a 500 error since yesterday's update.", "expect": {"category": "technical", "priority": "normal", "order_id": null}},
+  {"id": "t13", "ticket": "Please delete my account and all my data.", "expect": {"category": "account", "priority": "normal", "order_id": null}},
+  {"id": "t14", "ticket": "Tracking for A1402 shows delivered but nothing arrived. Box had medication I need today.", "expect": {"category": "shipping", "priority": "urgent", "order_id": "A1402"}},
+  {"id": "t15", "ticket": "Is there a student discount?", "expect": {"category": "billing", "priority": "low", "order_id": null}},
+  {"id": "t16", "ticket": "Password reset emails never arrive. Checked spam too.", "expect": {"category": "account", "priority": "normal", "order_id": null}},
+  {"id": "t17", "ticket": "API returns 429 for every request even though we are under our plan limit. Production is affected.", "expect": {"category": "technical", "priority": "urgent", "order_id": null}},
+  {"id": "t18", "ticket": "Cancel order A1520 please, I ordered by mistake.", "expect": {"category": "shipping", "priority": "normal", "order_id": "A1520"}},
+  {"id": "t19", "ticket": "Do you have a partnership program for agencies?", "expect": {"category": "other", "priority": "low", "order_id": null}},
+  {"id": "t20", "ticket": "I was refunded for order A1633 but the amount is $10 short.", "expect": {"category": "billing", "priority": "normal", "order_id": "A1633"}}
+]

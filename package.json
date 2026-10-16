@@ -1,0 +1,30 @@
+{
+  "name": "llm-eval-harness",
+  "version": "1.0.0",
+  "description": "Eval harness for a Claude feature: golden dataset, exact-match + LLM-as-judge graders, cost report and a CI regression gate.",
+  "scripts": {
+    "eval": "tsx src/cli.ts",
+    "test": "node --import tsx --test --test-reporter=spec test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "llm",
+    "evals",
+    "claude",
+    "anthropic",
+    "llm-as-judge",
+    "ci"
+  ],
+  "author": "McKeen Asma",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "private": true
+}
