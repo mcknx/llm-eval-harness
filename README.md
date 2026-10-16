@@ -2,6 +2,12 @@
 
 [![eval](https://github.com/mcknx/llm-eval-harness/actions/workflows/eval.yml/badge.svg)](https://github.com/mcknx/llm-eval-harness/actions/workflows/eval.yml)
 
+## Watch the 60-second demo
+
+[![Demo video: llm-eval-harness](docs/demo.gif)](docs/demo.mp4)
+
+[Watch the full demo (MP4, 59 s)](docs/demo.mp4): the README, the architecture diagram, the graders and the CI gate in `src/eval.ts` + `eval.yml`, the 5 tests passing and the regressed replay failing the gate (exit 1). No audio; captions on screen.
+
 > **Demo project, not client work.** It tests a Claude-powered feature before a prompt change ships. The support tickets are fictional. **The two recordings in `evals/recordings/` are synthetic**: hand-written to stand in for model outputs (one good, one with typical regressions), so the harness and its CI gate run offline and free. `npm run eval -- live` runs the same eval against the real API when `ANTHROPIC_API_KEY` is set; no live results are claimed here.
 
 ## What it does (30 seconds)
