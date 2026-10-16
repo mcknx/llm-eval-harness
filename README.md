@@ -1,5 +1,7 @@
 # llm-eval-harness
 
+[![eval](https://github.com/mcknx/llm-eval-harness/actions/workflows/eval.yml/badge.svg)](https://github.com/mcknx/llm-eval-harness/actions/workflows/eval.yml)
+
 > **Demo project, not client work.** It shows how I test a Claude-powered feature before shipping a prompt change. The support tickets are fictional. **The two recordings in `evals/recordings/` are synthetic**: I wrote them by hand to stand in for model outputs (one good, one with typical regressions), so the harness and its CI gate run offline and free. `npm run eval -- live` runs the same eval against the real API when `ANTHROPIC_API_KEY` is set; no live results are claimed here.
 
 ## What it does (30 seconds)
